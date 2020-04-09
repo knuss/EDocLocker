@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_add_citizen">
+
+    <fragment
+        android:id="@+id/nav_manage_citizen"
+        android:name="com.example.e_doclocker.ui.ManageCitizenFragment"
+        android:label="Manage Citizen"
+        tools:layout="@layout/fragment_manage_citizen" />
+
+    <fragment
+        android:id="@+id/nav_add_citizen"
+        android:name="com.example.e_doclocker.ui.AddCitizenFragment"
+        android:label="Add Citizen"
+        tools:layout="@layout/fragment_add_citizen" />
+
+
+    <fragment
+        android:id="@+id/nav_view_feedback"
+        android:name="com.example.e_doclocker.ui.ViewFeedBackFragment"
+        android:label="View Feedback"
+        tools:layout="@layout/fragment_view_feedback" />
+
+    <fragment
+        android:id="@+id/nav_add_document"
+        android:name="com.example.e_doclocker.ui.AddDocumentFragment"
+        android:label="Add Document"
+        tools:layout="@layout/fragment_add_document" />
+
+</navigation>

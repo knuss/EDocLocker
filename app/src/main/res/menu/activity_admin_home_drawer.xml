@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_citizen"
+            android:icon="@drawable/ic_add_person"
+            android:title="Add Citizen" />
+        <item
+            android:id="@+id/nav_manage_citizen"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manage Citizen" />
+        <item
+            android:id="@+id/nav_add_document"
+            android:icon="@drawable/ic_add_doc"
+            android:title="Add Document" />
+
+        <item
+            android:id="@+id/nav_view_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="View Feedback" />
+    </group>
+
+
+
+</menu>
